@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Mnemonics\electrum-words.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Mnemonics\chinese_simplified.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Mnemonics\dutch.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Mnemonics\electrum-words.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Mnemonics\english.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Mnemonics\english_old.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Mnemonics\esperanto.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Mnemonics\french.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Mnemonics\german.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Mnemonics\italian.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Mnemonics\japanese.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Mnemonics\language_base.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Mnemonics\lojban.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Mnemonics\portuguese.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Mnemonics\russian.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Mnemonics\singleton.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Mnemonics\spanish.h" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

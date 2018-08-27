@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{64D3F960-1AFD-3D15-9DF7-500622C40E32}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>zedwallet</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\turtlecoin\VS2017\build\src\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">zedwallet.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">zedwallet</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\turtlecoin\VS2017\build\src\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">zedwallet.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">zedwallet</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\turtlecoin\VS2017\build\src\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">zedwallet.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">zedwallet</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\turtlecoin\VS2017\build\src\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">zedwallet.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">zedwallet</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4345</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Debug\Mnemonics.lib;Debug\Wallet.lib;Debug\NodeRpcProxy.lib;Debug\Transfers.lib;Debug\Rpc.lib;Debug\Http.lib;Debug\CryptoNoteCore.lib;Debug\System.lib;Debug\Logging.lib;Debug\Common.lib;..\external\linenoise\Debug\linenoise.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_system-vc140-mt-sgd-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_filesystem-vc140-mt-sgd-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_thread-vc140-mt-sgd-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_date_time-vc140-mt-sgd-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_chrono-vc140-mt-sgd-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_regex-vc140-mt-sgd-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_serialization-vc140-mt-sgd-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_program_options-vc140-mt-sgd-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_atomic-vc140-mt-sgd-1_59.lib;Debug\P2P.lib;Debug\Rpc.lib;Debug\CryptoNoteCore.lib;Debug\P2P.lib;Debug\Http.lib;Debug\System.lib;Debug\Common.lib;Debug\Logging.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_system-vc140-mt-sgd-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_filesystem-vc140-mt-sgd-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_thread-vc140-mt-sgd-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_date_time-vc140-mt-sgd-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_chrono-vc140-mt-sgd-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_regex-vc140-mt-sgd-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_serialization-vc140-mt-sgd-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_program_options-vc140-mt-sgd-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_atomic-vc140-mt-sgd-1_59.lib;..\external\miniupnpc\Debug\miniupnpc.lib;ws2_32.lib;iphlpapi.lib;Debug\Serialization.lib;Debug\Crypto.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/turtlecoin/build/src/Debug/zedwallet.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/turtlecoin/build/src/Debug/zedwallet.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10485760</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;4345</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Release\Mnemonics.lib;Release\Wallet.lib;Release\NodeRpcProxy.lib;Release\Transfers.lib;Release\Rpc.lib;Release\Http.lib;Release\CryptoNoteCore.lib;Release\System.lib;Release\Logging.lib;Release\Common.lib;..\external\linenoise\Release\linenoise.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_system-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_filesystem-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_thread-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_date_time-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_chrono-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_regex-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_serialization-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_program_options-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_atomic-vc140-mt-s-1_59.lib;Release\P2P.lib;Release\Rpc.lib;Release\CryptoNoteCore.lib;Release\P2P.lib;Release\Http.lib;Release\System.lib;Release\Common.lib;Release\Logging.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_system-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_filesystem-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_thread-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_date_time-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_chrono-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_regex-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_serialization-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_program_options-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_atomic-vc140-mt-s-1_59.lib;..\external\miniupnpc\Release\miniupnpc.lib;ws2_32.lib;iphlpapi.lib;Release\Serialization.lib;Release\Crypto.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/turtlecoin/build/src/Release/zedwallet.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/turtlecoin/build/src/Release/zedwallet.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10485760</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;4345</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>MinSizeRel\Mnemonics.lib;MinSizeRel\Wallet.lib;MinSizeRel\NodeRpcProxy.lib;MinSizeRel\Transfers.lib;MinSizeRel\Rpc.lib;MinSizeRel\Http.lib;MinSizeRel\CryptoNoteCore.lib;MinSizeRel\System.lib;MinSizeRel\Logging.lib;MinSizeRel\Common.lib;..\external\linenoise\MinSizeRel\linenoise.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_system-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_filesystem-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_thread-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_date_time-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_chrono-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_regex-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_serialization-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_program_options-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_atomic-vc140-mt-s-1_59.lib;MinSizeRel\P2P.lib;MinSizeRel\Rpc.lib;MinSizeRel\CryptoNoteCore.lib;MinSizeRel\P2P.lib;MinSizeRel\Http.lib;MinSizeRel\System.lib;MinSizeRel\Common.lib;MinSizeRel\Logging.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_system-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_filesystem-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_thread-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_date_time-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_chrono-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_regex-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_serialization-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_program_options-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_atomic-vc140-mt-s-1_59.lib;..\external\miniupnpc\MinSizeRel\miniupnpc.lib;ws2_32.lib;iphlpapi.lib;MinSizeRel\Serialization.lib;MinSizeRel\Crypto.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/turtlecoin/build/src/MinSizeRel/zedwallet.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/turtlecoin/build/src/MinSizeRel/zedwallet.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10485760</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4345</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>RelWithDebInfo\Mnemonics.lib;RelWithDebInfo\Wallet.lib;RelWithDebInfo\NodeRpcProxy.lib;RelWithDebInfo\Transfers.lib;RelWithDebInfo\Rpc.lib;RelWithDebInfo\Http.lib;RelWithDebInfo\CryptoNoteCore.lib;RelWithDebInfo\System.lib;RelWithDebInfo\Logging.lib;RelWithDebInfo\Common.lib;..\external\linenoise\RelWithDebInfo\linenoise.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_system-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_filesystem-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_thread-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_date_time-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_chrono-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_regex-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_serialization-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_program_options-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_atomic-vc140-mt-s-1_59.lib;RelWithDebInfo\P2P.lib;RelWithDebInfo\Rpc.lib;RelWithDebInfo\CryptoNoteCore.lib;RelWithDebInfo\P2P.lib;RelWithDebInfo\Http.lib;RelWithDebInfo\System.lib;RelWithDebInfo\Common.lib;RelWithDebInfo\Logging.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_system-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_filesystem-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_thread-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_date_time-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_chrono-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_regex-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_serialization-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_program_options-vc140-mt-s-1_59.lib;C:\deps\boost_1_59_0\lib64-msvc-14.0\libboost_atomic-vc140-mt-s-1_59.lib;..\external\miniupnpc\RelWithDebInfo\miniupnpc.lib;ws2_32.lib;iphlpapi.lib;RelWithDebInfo\Serialization.lib;RelWithDebInfo\Crypto.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/turtlecoin/build/src/RelWithDebInfo/zedwallet.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/turtlecoin/build/src/RelWithDebInfo/zedwallet.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10485760</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\turtlecoin\VS2017\src\zedwallet\AddressBook.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\zedwallet\AddressBook.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\zedwallet\ColouredMsg.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\zedwallet\CommandImplementations.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\zedwallet\CommandImplementations.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\zedwallet\Commands.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\zedwallet\Commands.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\zedwallet\Fusion.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\zedwallet\Fusion.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\zedwallet\Open.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\zedwallet\Open.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\zedwallet\ParseArguments.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\zedwallet\ParseArguments.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\zedwallet\PasswordContainer.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\zedwallet\PasswordContainer.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\zedwallet\Sync.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\zedwallet\Sync.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\zedwallet\Tools.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\zedwallet\Tools.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\zedwallet\Transfer.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\zedwallet\Transfer.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\zedwallet\Types.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\zedwallet\WalletConfig.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\zedwallet\ZedWallet.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\zedwallet\ZedWallet.h" />
+    <ResourceCompile Include="D:\turtlecoin\VS2017\src\BinaryInfo\zedwallet.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\src\Common.vcxproj">
+      <Project>{43D77EF2-4BCC-385A-8D27-0764F9100A01}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\src\Crypto.vcxproj">
+      <Project>{04BB4FC7-DFED-3F90-A316-1CF36FFD5B2E}</Project>
+      <Name>Crypto</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\src\Http.vcxproj">
+      <Project>{2BF5AC49-D379-37B7-9598-243F0783B040}</Project>
+      <Name>Http</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\src\Logging.vcxproj">
+      <Project>{05DD61C1-658D-3683-BC73-C78F9B090522}</Project>
+      <Name>Logging</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\src\Mnemonics.vcxproj">
+      <Project>{528DB92F-37FD-3CCB-92B9-FCFD93C89549}</Project>
+      <Name>Mnemonics</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\src\NodeRpcProxy.vcxproj">
+      <Project>{34FE42FD-B7FC-3804-925F-C076A9ABE675}</Project>
+      <Name>NodeRpcProxy</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\src\Rpc.vcxproj">
+      <Project>{94C24DBD-A5CF-3C74-AEAC-82F6B71C2ACF}</Project>
+      <Name>Rpc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\src\Serialization.vcxproj">
+      <Project>{403940D3-1937-3701-B9B1-6AB200482179}</Project>
+      <Name>Serialization</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\src\System.vcxproj">
+      <Project>{69EAD9E2-03BE-3755-BCBF-00A0DD8A6AB6}</Project>
+      <Name>System</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\src\Transfers.vcxproj">
+      <Project>{135757BD-6008-367B-8EAD-A448D2FFD80F}</Project>
+      <Name>Transfers</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\src\Wallet.vcxproj">
+      <Project>{8EB96336-E76B-3225-A8B3-6784A486FDA9}</Project>
+      <Name>Wallet</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\linenoise\linenoise.vcxproj">
+      <Project>{997BC1A3-7590-3312-BBFB-B96907EC9480}</Project>
+      <Name>linenoise</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\miniupnpc\upnpc-static.vcxproj">
+      <Project>{F97F17E1-6645-399A-AA6F-6C2900A8F728}</Project>
+      <Name>upnpc-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\version.vcxproj">
+      <Project>{6301C28E-42B4-3F4D-A621-429A2F072240}</Project>
+      <Name>version</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

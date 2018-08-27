@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Serialization\BinaryInputStreamSerializer.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Serialization\BinaryOutputStreamSerializer.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Serialization\BlockchainExplorerDataSerialization.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Serialization\JsonInputStreamSerializer.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Serialization\JsonInputValueSerializer.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Serialization\JsonOutputStreamSerializer.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Serialization\KVBinaryInputStreamSerializer.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Serialization\KVBinaryOutputStreamSerializer.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Serialization\MemoryStream.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Serialization\SerializationOverloads.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Serialization\BinaryInputStreamSerializer.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Serialization\BinaryOutputStreamSerializer.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Serialization\BinarySerializationTools.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Serialization\BlockchainExplorerDataSerialization.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Serialization\ISerializer.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Serialization\IStream.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Serialization\JsonInputStreamSerializer.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Serialization\JsonInputValueSerializer.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Serialization\JsonOutputStreamSerializer.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Serialization\KVBinaryCommon.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Serialization\KVBinaryInputStreamSerializer.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Serialization\KVBinaryOutputStreamSerializer.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Serialization\MemoryStream.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Serialization\SerializationOverloads.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Serialization\SerializationTools.h" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\turtlecoin\VS2017\src\System\ContextGroup.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\System\ContextGroupTimeout.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\System\Event.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\System\EventLock.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\System\InterruptedException.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\System\Ipv4Address.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\System\RemoteEventLock.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\System\TcpStream.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Platform\Windows\System\Dispatcher.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Platform\Windows\System\ErrorMessage.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Platform\Windows\System\Ipv4Resolver.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Platform\Windows\System\MemoryMappedFile.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Platform\Windows\System\TcpConnection.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Platform\Windows\System\TcpConnector.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Platform\Windows\System\TcpListener.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Platform\Windows\System\Timer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\turtlecoin\VS2017\src\System\Context.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\System\ContextGroup.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\System\ContextGroupTimeout.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\System\Event.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\System\EventLock.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\System\InterruptedException.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\System\Ipv4Address.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\System\OperationTimeout.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\System\RemoteContext.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\System\RemoteEventLock.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\System\TcpStream.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Platform\Windows\System\Dispatcher.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Platform\Windows\System\ErrorMessage.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Platform\Windows\System\Future.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Platform\Windows\System\Ipv4Resolver.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Platform\Windows\System\MemoryMappedFile.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Platform\Windows\System\TcpConnection.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Platform\Windows\System\TcpConnector.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Platform\Windows\System\TcpListener.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Platform\Windows\System\Timer.h" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

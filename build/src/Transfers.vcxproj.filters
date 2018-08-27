@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Transfers\BlockchainSynchronizer.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Transfers\SynchronizationState.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Transfers\TransfersConsumer.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Transfers\TransfersContainer.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Transfers\TransfersSubscription.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Transfers\TransfersSynchronizer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Transfers\BlockchainSynchronizer.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Transfers\CommonTypes.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Transfers\IBlockchainSynchronizer.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Transfers\IObservableImpl.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Transfers\SynchronizationState.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Transfers\TransfersConsumer.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Transfers\TransfersContainer.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Transfers\TransfersSubscription.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Transfers\TransfersSynchronizer.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Transfers\TypeHelpers.h" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

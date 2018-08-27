@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\turtlecoin\VS2017\src\WalletService\ConfigurationManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\src\WalletService\NodeFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\src\WalletService\PaymentGateService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\src\WalletService\PaymentServiceConfiguration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\src\WalletService\PaymentServiceJsonRpcMessages.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\src\WalletService\PaymentServiceJsonRpcServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\src\WalletService\RpcNodeConfiguration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\src\WalletService\WalletService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\src\WalletService\WalletServiceErrorCategory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\src\WalletService\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\turtlecoin\VS2017\src\WalletService\ConfigurationManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\turtlecoin\VS2017\src\WalletService\NodeFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\turtlecoin\VS2017\src\WalletService\PaymentGateService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\turtlecoin\VS2017\src\WalletService\PaymentServiceConfiguration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\turtlecoin\VS2017\src\WalletService\PaymentServiceJsonRpcMessages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\turtlecoin\VS2017\src\WalletService\PaymentServiceJsonRpcServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\turtlecoin\VS2017\src\WalletService\RpcNodeConfiguration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\turtlecoin\VS2017\src\WalletService\WalletService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\turtlecoin\VS2017\src\WalletService\WalletServiceErrorCategory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5FE92B2C-4D59-3D66-AFD7-56556B345959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{85DC7120-74FB-3A70-BFF8-94F25E97953C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

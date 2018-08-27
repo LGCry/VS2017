@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\Base58.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\BlockingQueue.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\CommandLine.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\ConsoleHandler.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\ConsoleTools.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\FileMappedVector.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\FormatTools.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\IInputStream.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\IOutputStream.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\JsonValue.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\Math.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\MemoryInputStream.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\PathTools.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\ScopeExit.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\SignalHandler.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\StdInputStream.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\StdOutputStream.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\StreamTools.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\StringInputStream.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\StringOutputStream.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\StringTools.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\StringView.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\Util.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\VectorOutputStream.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\ArrayRef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\ArrayView.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\Base58.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\BlockingQueue.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\CommandLine.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\ConsoleHandler.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\ConsoleTools.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\FileMappedVector.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\FormatTools.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\IInputStream.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\IOutputStream.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\JsonValue.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\Math.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\MemoryInputStream.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\ObserverManager.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\PathTools.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\ScopeExit.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\ShuffleGenerator.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\SignalHandler.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\StdInputStream.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\StdOutputStream.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\StreamTools.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\StringBuffer.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\StringInputStream.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\StringOutputStream.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\StringTools.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\StringView.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\Util.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\Varint.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\VectorOutputStream.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\int-util.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\pod-class.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5FE92B2C-4D59-3D66-AFD7-56556B345959}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

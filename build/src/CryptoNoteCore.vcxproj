@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{45805052-5904-38EA-BDA1-97B6730A06CA}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>CryptoNoteCore</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\turtlecoin\VS2017\build\src\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CryptoNoteCore.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CryptoNoteCore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\turtlecoin\VS2017\build\src\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CryptoNoteCore.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CryptoNoteCore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\turtlecoin\VS2017\build\src\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CryptoNoteCore.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CryptoNoteCore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\turtlecoin\VS2017\build\src\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CryptoNoteCore.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CryptoNoteCore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4345</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;4345</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;4345</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4345</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\Account.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\Account.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\AddBlockErrorCondition.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\AddBlockErrorCondition.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\AddBlockErrors.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\AddBlockErrors.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\BlockValidationErrors.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\BlockValidationErrors.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\BlockchainCache.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\BlockchainCache.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\BlockchainMessages.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\BlockchainMessages.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\BlockchainReadBatch.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\BlockchainReadBatch.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\BlockchainStorage.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\BlockchainStorage.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\BlockchainUtils.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\BlockchainUtils.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\BlockchainWriteBatch.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\BlockchainWriteBatch.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\CachedBlock.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\CachedBlock.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\CachedTransaction.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\CachedTransaction.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\Checkpoints.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\Checkpoints.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\Core.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\Core.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\CoreErrors.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\CoreErrors.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\CoreStatistics.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\CryptoNoteBasic.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\CryptoNoteBasic.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\CryptoNoteBasicImpl.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\CryptoNoteBasicImpl.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\CryptoNoteFormatUtils.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\CryptoNoteFormatUtils.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\CryptoNoteSerialization.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\CryptoNoteSerialization.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\CryptoNoteTools.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\CryptoNoteTools.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\Currency.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\Currency.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\DBUtils.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\DBUtils.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\DataBaseConfig.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\DataBaseConfig.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\DataBaseErrors.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\DataBaseErrors.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\DatabaseBlockchainCache.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\DatabaseBlockchainCache.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\DatabaseBlockchainCacheFactory.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\DatabaseBlockchainCacheFactory.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\DatabaseCacheData.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\DatabaseCacheData.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\Difficulty.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\Difficulty.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\IBlockchainCache.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\IBlockchainCacheFactory.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\IBlockchainStorageObserver.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\ICore.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\ICoreDefinitions.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\ICoreInformation.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\ICoreObserver.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\IKeyValueStorage.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\IMainChainStorage.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\IMinerHandler.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\ITimeProvider.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\ITimeProvider.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\ITransactionPool.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\ITransactionPoolCleaner.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\ITransactionValidator.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\ITxPoolObserver.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\IUpgradeDetector.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\IUpgradeManager.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\IntrusiveLinkedList.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\MainChainStorage.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\MainChainStorage.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\MemoryBlockchainCacheFactory.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\MemoryBlockchainCacheFactory.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\MemoryBlockchainStorage.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\MemoryBlockchainStorage.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\MessageQueue.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\Miner.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\Miner.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\MinerConfig.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\MinerConfig.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\OnceInInterval.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\RocksDBWrapper.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\RocksDBWrapper.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\SwappedBlockchainStorage.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\SwappedBlockchainStorage.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\SwappedMap.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\SwappedMap.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\SwappedVector.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\SwappedVector.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\Transaction.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\TransactionApi.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\TransactionApiExtra.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\TransactionExtra.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\TransactionExtra.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\TransactionPool.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\TransactionPool.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\TransactionPoolCleaner.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\TransactionPoolCleaner.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\TransactionPoolMessages.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\TransactionPoolMessages.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\TransactionPrefixImpl.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\TransactionUtils.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\TransactionUtils.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\TransactionValidationErrors.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\TransactionValidationErrors.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\TransactionValidatiorState.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\TransactionValidatiorState.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\UpgradeDetector.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\UpgradeDetector.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\UpgradeManager.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\UpgradeManager.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteCore\VerificationContext.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\CryptoNoteConfig.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\src\P2P.vcxproj">
+      <Project>{6DE605C0-6741-3357-8302-83956D7447A2}</Project>
+      <Name>P2P</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

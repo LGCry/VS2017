@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\turtlecoin\VS2017\src\zedwallet\AddressBook.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\zedwallet\CommandImplementations.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\zedwallet\Commands.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\zedwallet\Fusion.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\zedwallet\Open.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\zedwallet\ParseArguments.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\zedwallet\PasswordContainer.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\zedwallet\Sync.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\zedwallet\Tools.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\zedwallet\Transfer.cpp" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\zedwallet\ZedWallet.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\turtlecoin\VS2017\src\zedwallet\AddressBook.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\zedwallet\ColouredMsg.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\zedwallet\CommandImplementations.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\zedwallet\Commands.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\zedwallet\Fusion.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\zedwallet\Open.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\zedwallet\ParseArguments.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\zedwallet\PasswordContainer.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\zedwallet\Sync.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\zedwallet\Tools.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\zedwallet\Transfer.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\zedwallet\Types.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\zedwallet\WalletConfig.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\zedwallet\ZedWallet.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\turtlecoin\VS2017\src\BinaryInfo\zedwallet.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{85DC7120-74FB-3A70-BFF8-94F25E97953C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

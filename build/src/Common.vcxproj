@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{43D77EF2-4BCC-385A-8D27-0764F9100A01}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Common</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\turtlecoin\VS2017\build\src\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Common.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Common</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\turtlecoin\VS2017\build\src\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Common.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Common</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\turtlecoin\VS2017\build\src\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Common.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Common</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\turtlecoin\VS2017\build\src\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Common.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Common</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4345</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;4345</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;4345</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4345</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\linenoise;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\ArrayRef.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\ArrayView.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\Base58.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\Base58.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\BlockingQueue.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\BlockingQueue.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\CommandLine.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\CommandLine.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\ConsoleHandler.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\ConsoleHandler.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\ConsoleTools.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\ConsoleTools.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\FileMappedVector.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\FileMappedVector.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\FormatTools.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\FormatTools.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\IInputStream.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\IInputStream.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\IOutputStream.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\IOutputStream.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\JsonValue.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\JsonValue.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\Math.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\Math.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\MemoryInputStream.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\MemoryInputStream.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\ObserverManager.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\PathTools.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\PathTools.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\ScopeExit.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\ScopeExit.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\ShuffleGenerator.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\SignalHandler.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\SignalHandler.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\StdInputStream.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\StdInputStream.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\StdOutputStream.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\StdOutputStream.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\StreamTools.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\StreamTools.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\StringBuffer.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\StringInputStream.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\StringInputStream.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\StringOutputStream.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\StringOutputStream.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\StringTools.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\StringTools.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\StringView.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\StringView.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\Util.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\Util.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\Varint.h" />
+    <ClCompile Include="D:\turtlecoin\VS2017\src\Common\VectorOutputStream.cpp" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\VectorOutputStream.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\int-util.h" />
+    <ClInclude Include="D:\turtlecoin\VS2017\src\Common\pod-class.h" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
