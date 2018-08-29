@@ -1,0 +1,716 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8DE610AD-C692-35AB-A600-5BD3B0A7CBC3}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>check</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;\include;D:\turtlecoin\VS2017\external\..\version;D:\turtlecoin\VS2017\external\rocksdb;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\rocksdb\third-party\gtest-1.7.0\fused-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;\include;D:\turtlecoin\VS2017\external\..\version;D:\turtlecoin\VS2017\external\rocksdb;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\rocksdb\third-party\gtest-1.7.0\fused-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;\include;D:\turtlecoin\VS2017\external\..\version;D:\turtlecoin\VS2017\external\rocksdb;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\rocksdb\third-party\gtest-1.7.0\fused-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;\include;D:\turtlecoin\VS2017\external\..\version;D:\turtlecoin\VS2017\external\rocksdb;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\rocksdb\third-party\gtest-1.7.0\fused-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\turtlecoin\VS2017\build\CMakeFiles\3dcfad46bba751bb8ea9db9c3a22dbc7\check.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\ctest.exe"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/turtlecoin/build/CMakeFiles/3dcfad46bba751bb8ea9db9c3a22dbc7/check.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\turtlecoin\VS2017\build\external\rocksdb\CMakeFiles\check</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\ctest.exe"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/turtlecoin/build/CMakeFiles/3dcfad46bba751bb8ea9db9c3a22dbc7/check.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\turtlecoin\VS2017\build\external\rocksdb\CMakeFiles\check</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\ctest.exe"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/turtlecoin/build/CMakeFiles/3dcfad46bba751bb8ea9db9c3a22dbc7/check.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\turtlecoin\VS2017\build\external\rocksdb\CMakeFiles\check</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\ctest.exe"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/turtlecoin/build/CMakeFiles/3dcfad46bba751bb8ea9db9c3a22dbc7/check.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\turtlecoin\VS2017\build\external\rocksdb\CMakeFiles\check</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\turtlecoin\VS2017\build\external\rocksdb\CMakeFiles\check" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_arena_test.vcxproj">
+      <Project>{3A6BB563-3CAD-3E8D-82A2-894DDF2BD51B}</Project>
+      <Name>LGCoin_arena_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_auto_roll_logger_test.vcxproj">
+      <Project>{4F463703-5112-3705-85A5-24E08DC83241}</Project>
+      <Name>LGCoin_auto_roll_logger_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_autovector_test.vcxproj">
+      <Project>{272A51FF-2D40-3FAF-B7CC-BAB2BEC515C9}</Project>
+      <Name>LGCoin_autovector_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_backupable_db_test.vcxproj">
+      <Project>{CD59C0FA-109B-3C81-8AB1-4D7A26149028}</Project>
+      <Name>LGCoin_backupable_db_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_blob_db_test.vcxproj">
+      <Project>{67A2C6E5-2C50-35EE-BAD0-405CE6DF1D15}</Project>
+      <Name>LGCoin_blob_db_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_block_based_filter_block_test.vcxproj">
+      <Project>{6A898D15-742B-3AFD-8416-9EEDC912D58A}</Project>
+      <Name>LGCoin_block_based_filter_block_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_block_test.vcxproj">
+      <Project>{D691EC8C-864E-3856-AEFD-5E9BEE89A200}</Project>
+      <Name>LGCoin_block_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_bloom_test.vcxproj">
+      <Project>{FD91F564-CD0E-36E0-AD06-6812617D5343}</Project>
+      <Name>LGCoin_bloom_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_cache_test.vcxproj">
+      <Project>{5CDC7B96-49C2-3BC5-A3F4-5B3C2D9091FF}</Project>
+      <Name>LGCoin_cache_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_cassandra_format_test.vcxproj">
+      <Project>{6ADD1538-BF05-359F-81EB-CE2377C2F497}</Project>
+      <Name>LGCoin_cassandra_format_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_cassandra_functional_test.vcxproj">
+      <Project>{9B837EBD-73AA-3FE1-B239-40150EBC6C34}</Project>
+      <Name>LGCoin_cassandra_functional_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_cassandra_row_merge_test.vcxproj">
+      <Project>{050E3B98-15B4-3922-A75B-771600598882}</Project>
+      <Name>LGCoin_cassandra_row_merge_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_cassandra_serialize_test.vcxproj">
+      <Project>{725C1A22-79D4-3961-9792-0E4B6E05B505}</Project>
+      <Name>LGCoin_cassandra_serialize_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_checkpoint_test.vcxproj">
+      <Project>{A2BD0BF0-B192-3715-9832-AE3950E8988A}</Project>
+      <Name>LGCoin_checkpoint_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_cleanable_test.vcxproj">
+      <Project>{18FDE28E-55F6-3676-A445-FC945CF21596}</Project>
+      <Name>LGCoin_cleanable_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_coding_test.vcxproj">
+      <Project>{66563E33-7E9D-37DA-9908-B134A8F67557}</Project>
+      <Name>LGCoin_coding_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_column_aware_encoding_test.vcxproj">
+      <Project>{91416071-041C-3E21-B66C-6B0F6A9C33C8}</Project>
+      <Name>LGCoin_column_aware_encoding_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_column_family_test.vcxproj">
+      <Project>{1114E256-21F9-33C7-87A3-AD0ED1D10893}</Project>
+      <Name>LGCoin_column_family_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_compact_files_test.vcxproj">
+      <Project>{CC3A0E7E-2003-3F95-8902-F74F24ACACE1}</Project>
+      <Name>LGCoin_compact_files_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_compact_on_deletion_collector_test.vcxproj">
+      <Project>{0BFEB32C-D0E1-35BD-B0B6-3F058019C190}</Project>
+      <Name>LGCoin_compact_on_deletion_collector_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_compaction_iterator_test.vcxproj">
+      <Project>{55208317-36A1-3852-A399-E74AF3C5A056}</Project>
+      <Name>LGCoin_compaction_iterator_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_compaction_job_stats_test.vcxproj">
+      <Project>{AB7C14B3-5C91-3C48-B2CF-A620B796AF9E}</Project>
+      <Name>LGCoin_compaction_job_stats_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_compaction_job_test.vcxproj">
+      <Project>{80F95BA1-07AF-3F7E-8CB1-146B6E6AE414}</Project>
+      <Name>LGCoin_compaction_job_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_compaction_picker_test.vcxproj">
+      <Project>{D510EF2A-FAD6-34BC-B784-835711C2273E}</Project>
+      <Name>LGCoin_compaction_picker_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_comparator_db_test.vcxproj">
+      <Project>{DAA94307-A904-3D10-85A6-BFDDE6BC7B31}</Project>
+      <Name>LGCoin_comparator_db_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_corruption_test.vcxproj">
+      <Project>{5557088D-5F67-3E55-8A71-53EC65CA213E}</Project>
+      <Name>LGCoin_corruption_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_crc32c_test.vcxproj">
+      <Project>{47620D9D-D5E1-3142-81B7-144CD0AFD8F7}</Project>
+      <Name>LGCoin_crc32c_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_cuckoo_table_builder_test.vcxproj">
+      <Project>{EB913A80-D817-3E51-9E44-E9E4FEC503FF}</Project>
+      <Name>LGCoin_cuckoo_table_builder_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_cuckoo_table_db_test.vcxproj">
+      <Project>{13C08FB2-AEFA-382B-8EF0-EFC6D62DA728}</Project>
+      <Name>LGCoin_cuckoo_table_db_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_cuckoo_table_reader_test.vcxproj">
+      <Project>{1F916E84-9708-3047-B5F6-27D9A69F2495}</Project>
+      <Name>LGCoin_cuckoo_table_reader_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_date_tiered_test.vcxproj">
+      <Project>{0EE3A6B5-0331-33AD-973D-4456667FBE04}</Project>
+      <Name>LGCoin_date_tiered_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_db_basic_test.vcxproj">
+      <Project>{57A24B15-D0C0-3FC0-8884-C81CD6890D08}</Project>
+      <Name>LGCoin_db_basic_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_db_blob_index_test.vcxproj">
+      <Project>{87FF577C-69F3-32D8-9175-9BA9F4A47AA9}</Project>
+      <Name>LGCoin_db_blob_index_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_db_block_cache_test.vcxproj">
+      <Project>{4C54B3AA-D6B9-310D-AEA8-55BD809A30B4}</Project>
+      <Name>LGCoin_db_block_cache_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_db_bloom_filter_test.vcxproj">
+      <Project>{E142DAD5-9E08-3316-A471-D2289A1A0184}</Project>
+      <Name>LGCoin_db_bloom_filter_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_db_compaction_filter_test.vcxproj">
+      <Project>{877413FE-D54E-34A5-8DF2-2C38CD3FB7C1}</Project>
+      <Name>LGCoin_db_compaction_filter_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_db_compaction_test.vcxproj">
+      <Project>{EEEF8F7F-2F3B-3F9C-A1EA-BE4E3EE8FE3C}</Project>
+      <Name>LGCoin_db_compaction_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_db_dynamic_level_test.vcxproj">
+      <Project>{D18F30B7-2452-314C-81F9-7A1ED1BE7988}</Project>
+      <Name>LGCoin_db_dynamic_level_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_db_flush_test.vcxproj">
+      <Project>{E14C2490-EF2A-3AD5-9B7B-371960AC9D81}</Project>
+      <Name>LGCoin_db_flush_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_db_inplace_update_test.vcxproj">
+      <Project>{BE756284-EC69-34AA-9519-095ED67421B3}</Project>
+      <Name>LGCoin_db_inplace_update_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_db_io_failure_test.vcxproj">
+      <Project>{632A6BD5-DA16-3956-BCAE-1E8A4F9E1027}</Project>
+      <Name>LGCoin_db_io_failure_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_db_iter_stress_test.vcxproj">
+      <Project>{A8EEFC2E-1F31-3664-9D8D-529974A26235}</Project>
+      <Name>LGCoin_db_iter_stress_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_db_iter_test.vcxproj">
+      <Project>{38A8C1E4-37B8-3B06-9844-AC6704CA7C34}</Project>
+      <Name>LGCoin_db_iter_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_db_iterator_test.vcxproj">
+      <Project>{3D440B3D-6931-3E90-BAEE-82DA1E2C3CD6}</Project>
+      <Name>LGCoin_db_iterator_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_db_log_iter_test.vcxproj">
+      <Project>{6688E56A-1AFF-369D-B3AB-E8A64B718D22}</Project>
+      <Name>LGCoin_db_log_iter_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_db_memtable_test.vcxproj">
+      <Project>{599C4CBA-565D-31CA-AEAC-21DFAF280B3D}</Project>
+      <Name>LGCoin_db_memtable_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_db_merge_operator_test.vcxproj">
+      <Project>{15B698C8-B03B-3EBC-A191-82F1A0C101FA}</Project>
+      <Name>LGCoin_db_merge_operator_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_db_options_test.vcxproj">
+      <Project>{F77DB9E6-9484-37D6-B1E6-001427C3BF84}</Project>
+      <Name>LGCoin_db_options_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_db_properties_test.vcxproj">
+      <Project>{62AB3BF3-5E9F-38A1-8848-20C13002BA76}</Project>
+      <Name>LGCoin_db_properties_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_db_range_del_test.vcxproj">
+      <Project>{97AABDEC-6CE6-342E-A8B3-E48694E68017}</Project>
+      <Name>LGCoin_db_range_del_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_db_sst_test.vcxproj">
+      <Project>{334F1203-FE1E-31F6-ACBA-4CABCFFA080B}</Project>
+      <Name>LGCoin_db_sst_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_db_statistics_test.vcxproj">
+      <Project>{DB75F6A8-DE95-3F2E-9995-8897C36A56E7}</Project>
+      <Name>LGCoin_db_statistics_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_db_table_properties_test.vcxproj">
+      <Project>{A7B55931-C3D4-3617-8848-89356A881810}</Project>
+      <Name>LGCoin_db_table_properties_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_db_tailing_iter_test.vcxproj">
+      <Project>{28208944-55AA-3C2D-96B1-D103D60B444F}</Project>
+      <Name>LGCoin_db_tailing_iter_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_db_test.vcxproj">
+      <Project>{CC069A83-CD61-3AA7-AF34-82C0BBE2AED8}</Project>
+      <Name>LGCoin_db_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_db_test2.vcxproj">
+      <Project>{E4F012D3-F873-33A5-A5AA-CF6D2AFD763F}</Project>
+      <Name>LGCoin_db_test2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_db_universal_compaction_test.vcxproj">
+      <Project>{827E9E68-53A9-342D-BD4B-407CC4C5068A}</Project>
+      <Name>LGCoin_db_universal_compaction_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_db_wal_test.vcxproj">
+      <Project>{D34C2724-F7AC-3B79-A58B-C4675D6D09A3}</Project>
+      <Name>LGCoin_db_wal_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_db_write_test.vcxproj">
+      <Project>{DCFAE822-BC49-309C-BE30-F8D8EE707E41}</Project>
+      <Name>LGCoin_db_write_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_dbformat_test.vcxproj">
+      <Project>{4ADF62A4-1E22-3F17-AF37-5BFF0F786D75}</Project>
+      <Name>LGCoin_dbformat_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_delete_scheduler_test.vcxproj">
+      <Project>{65690669-7D1E-31B1-A6CA-8DECAF8E0660}</Project>
+      <Name>LGCoin_delete_scheduler_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_deletefile_test.vcxproj">
+      <Project>{25F153EC-8159-3335-9CE7-C51B8C6D9146}</Project>
+      <Name>LGCoin_deletefile_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_document_db_test.vcxproj">
+      <Project>{5B6ED663-4189-30FA-A583-57BBD96E19F4}</Project>
+      <Name>LGCoin_document_db_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_dynamic_bloom_test.vcxproj">
+      <Project>{04AA2677-E778-3282-99F2-002B8B3E78C7}</Project>
+      <Name>LGCoin_dynamic_bloom_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_env_basic_test.vcxproj">
+      <Project>{10923C60-8737-3E80-AA83-1040C9D1F132}</Project>
+      <Name>LGCoin_env_basic_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_env_test.vcxproj">
+      <Project>{C15FE30F-765F-3DAD-9220-985E3BAB72AA}</Project>
+      <Name>LGCoin_env_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_event_logger_test.vcxproj">
+      <Project>{BC6513DA-B1B8-3B8A-A004-CC5D0399AA2C}</Project>
+      <Name>LGCoin_event_logger_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_external_sst_file_basic_test.vcxproj">
+      <Project>{2F864BB7-20FE-37DD-9E31-7BCAC7C86212}</Project>
+      <Name>LGCoin_external_sst_file_basic_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_external_sst_file_test.vcxproj">
+      <Project>{C6DE6341-DAA4-3DD2-947F-791DD91B65D0}</Project>
+      <Name>LGCoin_external_sst_file_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_fault_injection_test.vcxproj">
+      <Project>{EF018CE1-7F32-349A-8846-2C97F8325AA5}</Project>
+      <Name>LGCoin_fault_injection_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_file_indexer_test.vcxproj">
+      <Project>{0C7FDF88-780E-363D-8A9B-567009122847}</Project>
+      <Name>LGCoin_file_indexer_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_file_reader_writer_test.vcxproj">
+      <Project>{CF890824-E374-36FF-B750-E9A12402F84C}</Project>
+      <Name>LGCoin_file_reader_writer_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_filelock_test.vcxproj">
+      <Project>{553E5F4A-47DC-3E51-B4E6-58420008A140}</Project>
+      <Name>LGCoin_filelock_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_filename_test.vcxproj">
+      <Project>{3E7D28B9-17F8-389F-8F6C-DF4ADF79DDE1}</Project>
+      <Name>LGCoin_filename_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_flush_job_test.vcxproj">
+      <Project>{2D1A7E74-73DA-36F8-8656-040BEAABB6C5}</Project>
+      <Name>LGCoin_flush_job_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_full_filter_block_test.vcxproj">
+      <Project>{EEBB0E78-730B-3BAA-AEAF-AAED0370FC17}</Project>
+      <Name>LGCoin_full_filter_block_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_geodb_test.vcxproj">
+      <Project>{1F58983A-7A8B-34C8-8A9E-5BE4575E6FDD}</Project>
+      <Name>LGCoin_geodb_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_hash_table_test.vcxproj">
+      <Project>{778C7F1F-8741-3DB5-80F9-0C5F83B05AA1}</Project>
+      <Name>LGCoin_hash_table_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_hash_test.vcxproj">
+      <Project>{D630627C-B52B-31D0-82FB-5B6C55108D60}</Project>
+      <Name>LGCoin_hash_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_heap_test.vcxproj">
+      <Project>{95011F76-816E-3062-8139-17E075F57D9F}</Project>
+      <Name>LGCoin_heap_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_histogram_test.vcxproj">
+      <Project>{476A9783-805E-3509-B403-47F9C21AC94B}</Project>
+      <Name>LGCoin_histogram_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_inlineskiplist_test.vcxproj">
+      <Project>{F264051C-35E8-3736-855B-2B922597779B}</Project>
+      <Name>LGCoin_inlineskiplist_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_iostats_context_test.vcxproj">
+      <Project>{AF2B6ED4-CFB6-39AA-81C3-95A6D2822564}</Project>
+      <Name>LGCoin_iostats_context_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_json_document_test.vcxproj">
+      <Project>{CD8B9804-429E-317B-9AB7-1F1ECE829A3C}</Project>
+      <Name>LGCoin_json_document_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_ldb_cmd_test.vcxproj">
+      <Project>{17B42E72-E698-315A-8222-00BE9484D80B}</Project>
+      <Name>LGCoin_ldb_cmd_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_listener_test.vcxproj">
+      <Project>{9ACC9FE4-68F5-3345-8D52-5E21F1AB5CFB}</Project>
+      <Name>LGCoin_listener_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_log_test.vcxproj">
+      <Project>{1C3E5FBD-780D-3CFA-8C34-464695347B9F}</Project>
+      <Name>LGCoin_log_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_lru_cache_test.vcxproj">
+      <Project>{C4F02621-258A-3B69-8AE8-371E48CBF803}</Project>
+      <Name>LGCoin_lru_cache_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_manual_compaction_test.vcxproj">
+      <Project>{33039F88-F611-350C-920C-006ECE01A539}</Project>
+      <Name>LGCoin_manual_compaction_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_memory_test.vcxproj">
+      <Project>{2FA573E6-02A1-30D4-A441-392C0F69B9E0}</Project>
+      <Name>LGCoin_memory_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_memtable_list_test.vcxproj">
+      <Project>{D57DAA19-AC88-3605-BF78-6C021D96F800}</Project>
+      <Name>LGCoin_memtable_list_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_merge_helper_test.vcxproj">
+      <Project>{9C87F598-99DF-3E34-A0A6-DFABFA35CCFA}</Project>
+      <Name>LGCoin_merge_helper_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_merge_test.vcxproj">
+      <Project>{4FCEA6BC-59BF-303F-9D9B-9D4020306877}</Project>
+      <Name>LGCoin_merge_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_merger_test.vcxproj">
+      <Project>{4D80C72A-A222-37B1-9C87-BD4EBD63E25C}</Project>
+      <Name>LGCoin_merger_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_mock_env_test.vcxproj">
+      <Project>{E997C3CD-40DB-3D80-B595-486E64D69678}</Project>
+      <Name>LGCoin_mock_env_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_object_registry_test.vcxproj">
+      <Project>{22B687EE-57AA-3F61-BEBF-D11F73081E0C}</Project>
+      <Name>LGCoin_object_registry_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_obsolete_files_test.vcxproj">
+      <Project>{6CA7A330-7E78-3A86-88DF-243E65F0E925}</Project>
+      <Name>LGCoin_obsolete_files_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_optimistic_transaction_test.vcxproj">
+      <Project>{64AFFE1F-9B4B-39C7-ADAD-8E0C455C0988}</Project>
+      <Name>LGCoin_optimistic_transaction_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_option_change_migration_test.vcxproj">
+      <Project>{57FA2815-2A0F-3975-9427-E83CF6343F97}</Project>
+      <Name>LGCoin_option_change_migration_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_options_file_test.vcxproj">
+      <Project>{AFED2001-0AFF-3E91-AAFA-083459571F56}</Project>
+      <Name>LGCoin_options_file_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_options_settable_test.vcxproj">
+      <Project>{4302102B-86CA-3EF9-BDF0-C3D54BA52171}</Project>
+      <Name>LGCoin_options_settable_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_options_test.vcxproj">
+      <Project>{DF14AB8C-00FF-3452-875C-277B0AF103C7}</Project>
+      <Name>LGCoin_options_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_options_util_test.vcxproj">
+      <Project>{02BC303D-B206-3F55-94EC-844E11241AC5}</Project>
+      <Name>LGCoin_options_util_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_perf_context_test.vcxproj">
+      <Project>{92C2404D-C5A2-3772-88C7-5F45455009A5}</Project>
+      <Name>LGCoin_perf_context_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_persistent_cache_test.vcxproj">
+      <Project>{B4E767DA-BD6E-3912-B7E6-85F9DAE4B943}</Project>
+      <Name>LGCoin_persistent_cache_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_plain_table_db_test.vcxproj">
+      <Project>{803A7C66-747F-306F-A405-D434ABF639DA}</Project>
+      <Name>LGCoin_plain_table_db_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_prefix_test.vcxproj">
+      <Project>{A9E6ED7E-1C4C-3A61-919C-B971B54973C9}</Project>
+      <Name>LGCoin_prefix_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_rate_limiter_test.vcxproj">
+      <Project>{C51FB5A5-19EC-3A7B-A09A-32223574EB91}</Project>
+      <Name>LGCoin_rate_limiter_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_redis_lists_test.vcxproj">
+      <Project>{E60301A5-3055-3CC1-97ED-446C3A9770DC}</Project>
+      <Name>LGCoin_redis_lists_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_reduce_levels_test.vcxproj">
+      <Project>{55D4F684-F849-3A2E-82A4-CC4153CF2ECC}</Project>
+      <Name>LGCoin_reduce_levels_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_repair_test.vcxproj">
+      <Project>{7213AB02-0EE4-3303-BCD9-82FD1F6191A8}</Project>
+      <Name>LGCoin_repair_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_rocks_lua_test.vcxproj">
+      <Project>{EA477AA5-1BA8-3D9E-A60A-54BC1D6133F3}</Project>
+      <Name>LGCoin_rocks_lua_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_sim_cache_test.vcxproj">
+      <Project>{9EC50131-00A5-34CF-A55C-C2F5A076229A}</Project>
+      <Name>LGCoin_sim_cache_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_skiplist_test.vcxproj">
+      <Project>{B34C4989-53B2-305A-A27F-CFB36F8038C0}</Project>
+      <Name>LGCoin_skiplist_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_slice_transform_test.vcxproj">
+      <Project>{8C54675A-DD4D-3C63-A464-1082725CAA9A}</Project>
+      <Name>LGCoin_slice_transform_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_spatial_db_test.vcxproj">
+      <Project>{1283602B-C32D-34A0-B3AA-233659C65C1B}</Project>
+      <Name>LGCoin_spatial_db_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_sst_dump_test.vcxproj">
+      <Project>{96C2D31C-7B5B-3D55-BD6A-24C1895286A2}</Project>
+      <Name>LGCoin_sst_dump_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_statistics_test.vcxproj">
+      <Project>{DF4CC098-710D-3FF1-B129-C89C11D33F59}</Project>
+      <Name>LGCoin_statistics_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_stringappend_test.vcxproj">
+      <Project>{F45CB770-4332-30D7-AB25-70888F0B7DEC}</Project>
+      <Name>LGCoin_stringappend_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_table_properties_collector_test.vcxproj">
+      <Project>{53A66E6B-54C8-3905-A9FC-92E7EA1F1F01}</Project>
+      <Name>LGCoin_table_properties_collector_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_table_test.vcxproj">
+      <Project>{BD0CA0AD-25EB-32A7-8132-09EB37311A80}</Project>
+      <Name>LGCoin_table_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_thread_list_test.vcxproj">
+      <Project>{91F92A2A-BCD0-3D91-B110-97370B6302C4}</Project>
+      <Name>LGCoin_thread_list_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_thread_local_test.vcxproj">
+      <Project>{146EBC74-EE5E-3A48-AB22-12693237BF72}</Project>
+      <Name>LGCoin_thread_local_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_timer_queue_test.vcxproj">
+      <Project>{95EE1003-1A99-30BB-87DA-9DAE2323F889}</Project>
+      <Name>LGCoin_timer_queue_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_transaction_test.vcxproj">
+      <Project>{BEB26E6C-7295-3751-A00B-EBE161E286EE}</Project>
+      <Name>LGCoin_transaction_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_ttl_test.vcxproj">
+      <Project>{6BB72106-90C4-3284-81BE-7E3481EC0CAA}</Project>
+      <Name>LGCoin_ttl_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_version_builder_test.vcxproj">
+      <Project>{1160B031-9C94-3B9C-8EFA-1A759F2466B8}</Project>
+      <Name>LGCoin_version_builder_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_version_edit_test.vcxproj">
+      <Project>{768EAFEB-DA1D-36CD-B0F4-8E16F94C150E}</Project>
+      <Name>LGCoin_version_edit_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_version_set_test.vcxproj">
+      <Project>{21A66367-1F3C-34AA-B35D-46E03A45313F}</Project>
+      <Name>LGCoin_version_set_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_wal_manager_test.vcxproj">
+      <Project>{09F5B665-A116-362E-A8A1-7DB1FA9A9606}</Project>
+      <Name>LGCoin_wal_manager_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_write_batch_test.vcxproj">
+      <Project>{FB10D0A6-1152-31CF-B029-2A7D0EDD325F}</Project>
+      <Name>LGCoin_write_batch_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_write_batch_with_index_test.vcxproj">
+      <Project>{E7A526BC-6E06-39C4-989E-62199A86EA91}</Project>
+      <Name>LGCoin_write_batch_with_index_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_write_buffer_manager_test.vcxproj">
+      <Project>{69D52ED8-337E-31FC-8942-8B7AA5C6ED7C}</Project>
+      <Name>LGCoin_write_buffer_manager_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_write_callback_test.vcxproj">
+      <Project>{7CD33898-80B9-3996-ADE1-F106E312CC12}</Project>
+      <Name>LGCoin_write_callback_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_write_controller_test.vcxproj">
+      <Project>{ACED4895-DCA9-3B2C-81B4-12E84CF2DB9B}</Project>
+      <Name>LGCoin_write_controller_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\LGCoin_write_prepared_transaction_test.vcxproj">
+      <Project>{4D05F480-9A23-37E4-8276-F45F890B4026}</Project>
+      <Name>LGCoin_write_prepared_transaction_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\c_test.vcxproj">
+      <Project>{555FE30D-D610-3C09-AC61-91736595EDE3}</Project>
+      <Name>c_test</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

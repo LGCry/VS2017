@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\turtlecoin\VS2017\build\CMakeFiles\919680b7c77fd06e60743038c3b5944f\ldb_tests.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\turtlecoin\VS2017\build\external\rocksdb\tools\CMakeFiles\ldb_tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{907B16DE-3CF1-3D60-BBBD-9038D00CCCA3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

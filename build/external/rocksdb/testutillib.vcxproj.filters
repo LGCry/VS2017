@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\db_test_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\monitoring\thread_status_updater_debug.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\mock_table.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\fault_injection_test_env.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\cassandra\test_utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{85DC7120-74FB-3A70-BFF8-94F25E97953C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

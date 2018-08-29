@@ -1,0 +1,29 @@
+# CMake generation dependency list for this directory.
+D:/turtlecoin/external/rocksdb/CMakeLists.txt
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.11/Modules/CMakeDetermineASMCompiler.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.11/Modules/CMakeDetermineCompiler.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.11/Modules/CMakeFindBinUtils.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.11/Modules/CMakeASMCompiler.cmake.in
+D:/turtlecoin/build/CMakeFiles/3.11.18040201-MSVC_2/CMakeASMCompiler.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.11/Modules/CMakeASMInformation.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.11/Modules/Compiler/MSVC-ASM.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.11/Modules/CMakeTestASMCompiler.cmake
+D:/turtlecoin/external/rocksdb/thirdparty.inc
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.11/Modules/FindGit.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.11/Modules/FindPackageMessage.cmake
+D:/turtlecoin/external/rocksdb/util/build_version.cc.in
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.11/Modules/CheckCCompilerFlag.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.11/Modules/CheckCSourceCompiles.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.11/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.11/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.11/Modules/CheckCXXSymbolExists.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.11/Modules/CheckSymbolExists.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.11/Modules/CMakeConfigurableFile.in
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.11/Modules/CMakeConfigurableFile.in
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.11/Modules/FindThreads.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.11/Modules/CheckLibraryExists.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.11/Modules/CheckSymbolExists.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.11/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.11/Modules/FindPackageMessage.cmake

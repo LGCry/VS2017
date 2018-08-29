@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4D383598-24BF-389F-8B39-808446EC911B}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>tools</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;\include;D:\turtlecoin\VS2017\external\..\version;D:\turtlecoin\VS2017\external\rocksdb;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\rocksdb\third-party\gtest-1.7.0\fused-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;\include;D:\turtlecoin\VS2017\external\..\version;D:\turtlecoin\VS2017\external\rocksdb;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\rocksdb\third-party\gtest-1.7.0\fused-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;\include;D:\turtlecoin\VS2017\external\..\version;D:\turtlecoin\VS2017\external\rocksdb;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\rocksdb\third-party\gtest-1.7.0\fused-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\turtlecoin\VS2017\include;D:\turtlecoin\VS2017\build\version;D:\turtlecoin\VS2017\src;D:\turtlecoin\VS2017\external;D:\turtlecoin\VS2017\src\Platform\Windows;D:\turtlecoin\VS2017\src\platform\msc;C:\deps\boost_1_59_0;\include;D:\turtlecoin\VS2017\external\..\version;D:\turtlecoin\VS2017\external\rocksdb;D:\turtlecoin\VS2017\external\rocksdb\include;D:\turtlecoin\VS2017\external\rocksdb\third-party\gtest-1.7.0\fused-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\turtlecoin\VS2017\build\CMakeFiles\919680b7c77fd06e60743038c3b5944f\tools.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/turtlecoin/build/CMakeFiles/919680b7c77fd06e60743038c3b5944f/tools.rule;D:\turtlecoin\VS2017\build\external\rocksdb\tools\Debug\sst_dump.exe;D:\turtlecoin\VS2017\build\external\rocksdb\tools\Debug\db_sanity_test.exe;D:\turtlecoin\VS2017\build\external\rocksdb\tools\Debug\db_stress.exe;D:\turtlecoin\VS2017\build\external\rocksdb\tools\Debug\write_stress.exe;D:\turtlecoin\VS2017\build\external\rocksdb\tools\Debug\ldb.exe;D:\turtlecoin\VS2017\build\external\rocksdb\tools\Debug\db_repl_stress.exe;D:\turtlecoin\VS2017\build\external\rocksdb\tools\Debug\rocksdb_dump.exe;D:\turtlecoin\VS2017\build\external\rocksdb\tools\Debug\rocksdb_undump.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\turtlecoin\VS2017\build\external\rocksdb\tools\CMakeFiles\tools</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/turtlecoin/build/CMakeFiles/919680b7c77fd06e60743038c3b5944f/tools.rule;D:\turtlecoin\VS2017\build\external\rocksdb\tools\Release\sst_dump.exe;D:\turtlecoin\VS2017\build\external\rocksdb\tools\Release\db_sanity_test.exe;D:\turtlecoin\VS2017\build\external\rocksdb\tools\Release\db_stress.exe;D:\turtlecoin\VS2017\build\external\rocksdb\tools\Release\write_stress.exe;D:\turtlecoin\VS2017\build\external\rocksdb\tools\Release\ldb.exe;D:\turtlecoin\VS2017\build\external\rocksdb\tools\Release\db_repl_stress.exe;D:\turtlecoin\VS2017\build\external\rocksdb\tools\Release\rocksdb_dump.exe;D:\turtlecoin\VS2017\build\external\rocksdb\tools\Release\rocksdb_undump.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\turtlecoin\VS2017\build\external\rocksdb\tools\CMakeFiles\tools</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/turtlecoin/build/CMakeFiles/919680b7c77fd06e60743038c3b5944f/tools.rule;D:\turtlecoin\VS2017\build\external\rocksdb\tools\MinSizeRel\sst_dump.exe;D:\turtlecoin\VS2017\build\external\rocksdb\tools\MinSizeRel\db_sanity_test.exe;D:\turtlecoin\VS2017\build\external\rocksdb\tools\MinSizeRel\db_stress.exe;D:\turtlecoin\VS2017\build\external\rocksdb\tools\MinSizeRel\write_stress.exe;D:\turtlecoin\VS2017\build\external\rocksdb\tools\MinSizeRel\ldb.exe;D:\turtlecoin\VS2017\build\external\rocksdb\tools\MinSizeRel\db_repl_stress.exe;D:\turtlecoin\VS2017\build\external\rocksdb\tools\MinSizeRel\rocksdb_dump.exe;D:\turtlecoin\VS2017\build\external\rocksdb\tools\MinSizeRel\rocksdb_undump.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\turtlecoin\VS2017\build\external\rocksdb\tools\CMakeFiles\tools</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/turtlecoin/build/CMakeFiles/919680b7c77fd06e60743038c3b5944f/tools.rule;D:\turtlecoin\VS2017\build\external\rocksdb\tools\RelWithDebInfo\sst_dump.exe;D:\turtlecoin\VS2017\build\external\rocksdb\tools\RelWithDebInfo\db_sanity_test.exe;D:\turtlecoin\VS2017\build\external\rocksdb\tools\RelWithDebInfo\db_stress.exe;D:\turtlecoin\VS2017\build\external\rocksdb\tools\RelWithDebInfo\write_stress.exe;D:\turtlecoin\VS2017\build\external\rocksdb\tools\RelWithDebInfo\ldb.exe;D:\turtlecoin\VS2017\build\external\rocksdb\tools\RelWithDebInfo\db_repl_stress.exe;D:\turtlecoin\VS2017\build\external\rocksdb\tools\RelWithDebInfo\rocksdb_dump.exe;D:\turtlecoin\VS2017\build\external\rocksdb\tools\RelWithDebInfo\rocksdb_undump.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\turtlecoin\VS2017\build\external\rocksdb\tools\CMakeFiles\tools</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\turtlecoin\VS2017\build\external\rocksdb\tools\CMakeFiles\tools" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\tools\db_repl_stress.vcxproj">
+      <Project>{65C9BD18-D868-3F45-B89A-8B19CCB687D7}</Project>
+      <Name>db_repl_stress</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\tools\db_sanity_test.vcxproj">
+      <Project>{B22B7305-A556-32DF-B3C3-B3669C3DE741}</Project>
+      <Name>db_sanity_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\tools\db_stress.vcxproj">
+      <Project>{7900D2F9-5F96-323B-9DBE-6109145CC825}</Project>
+      <Name>db_stress</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\tools\ldb.vcxproj">
+      <Project>{50783C8A-E70F-3236-BA27-DF334AC5C558}</Project>
+      <Name>ldb</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\tools\rocksdb_dump.vcxproj">
+      <Project>{4648756E-250D-3D66-ADB9-323912766125}</Project>
+      <Name>rocksdb_dump</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\tools\rocksdb_undump.vcxproj">
+      <Project>{09EB3926-1673-3D19-8838-076C2C576CAC}</Project>
+      <Name>rocksdb_undump</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\tools\sst_dump.vcxproj">
+      <Project>{12836E38-695C-3ACD-A876-15E84B863CE1}</Project>
+      <Name>sst_dump</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\turtlecoin\VS2017\build\external\rocksdb\tools\write_stress.vcxproj">
+      <Project>{5AA88B3D-5E45-3E32-BFD5-10583FC5DBD5}</Project>
+      <Name>write_stress</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

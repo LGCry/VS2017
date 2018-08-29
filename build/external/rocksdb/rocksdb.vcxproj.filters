@@ -1,0 +1,678 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\cache\clock_cache.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\cache\lru_cache.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\cache\sharded_cache.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\builder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\c.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\column_family.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\compacted_db_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\compaction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\compaction_iterator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\compaction_job.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\compaction_picker.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\compaction_picker_universal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\convenience.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\db_filesnapshot.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\db_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\db_impl_write.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\db_impl_compaction_flush.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\db_impl_files.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\db_impl_open.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\db_impl_debug.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\db_impl_experimental.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\db_impl_readonly.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\db_info_dumper.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\db_iter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\dbformat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\event_helpers.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\experimental.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\external_sst_file_ingestion_job.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\file_indexer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\flush_job.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\flush_scheduler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\forward_iterator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\internal_stats.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\logs_with_prep_tracker.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\log_reader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\log_writer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\malloc_stats.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\managed_iterator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\memtable.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\memtable_list.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\merge_helper.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\merge_operator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\range_del_aggregator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\repair.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\snapshot_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\table_cache.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\table_properties_collector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\transaction_log_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\version_builder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\version_edit.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\version_set.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\wal_manager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\write_batch.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\write_batch_base.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\write_controller.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\db\write_thread.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\env\env.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\env\env_chroot.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\env\env_encryption.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\env\env_hdfs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\env\mock_env.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\memtable\alloc_tracker.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\memtable\hash_cuckoo_rep.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\memtable\hash_linklist_rep.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\memtable\hash_skiplist_rep.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\memtable\skiplistrep.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\memtable\vectorrep.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\memtable\write_buffer_manager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\monitoring\histogram.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\monitoring\histogram_windowing.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\monitoring\instrumented_mutex.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\monitoring\iostats_context.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\monitoring\perf_context.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\monitoring\perf_level.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\monitoring\statistics.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\monitoring\thread_status_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\monitoring\thread_status_updater.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\monitoring\thread_status_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\monitoring\thread_status_util_debug.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\options\cf_options.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\options\db_options.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\options\options.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\options\options_helper.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\options\options_parser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\options\options_sanity_check.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\port\stack_trace.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\adaptive_table_factory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\block.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\block_based_filter_block.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\block_based_table_builder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\block_based_table_factory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\block_based_table_reader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\block_builder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\block_fetcher.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\block_prefix_index.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\bloom_block.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\cuckoo_table_builder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\cuckoo_table_factory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\cuckoo_table_reader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\flush_block_policy.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\format.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\full_filter_block.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\get_context.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\index_builder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\iterator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\merging_iterator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\meta_blocks.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\partitioned_filter_block.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\persistent_cache_helper.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\plain_table_builder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\plain_table_factory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\plain_table_index.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\plain_table_key_coding.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\plain_table_reader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\sst_file_writer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\table_properties.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\table\two_level_iterator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\tools\db_bench_tool.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\tools\dump\db_dump_tool.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\tools\ldb_cmd.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\tools\ldb_tool.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\tools\sst_dump_tool.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\arena.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\auto_roll_logger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\bloom.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\coding.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\compaction_job_stats_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\comparator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\concurrent_arena.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\crc32c.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\delete_scheduler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\dynamic_bloom.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\event_logger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\file_reader_writer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\file_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\filename.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\filter_policy.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\hash.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\log_buffer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\murmurhash.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\random.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\rate_limiter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\slice.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\sst_file_manager_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\status.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\status_message.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\string_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\sync_point.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\sync_point_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\testutil.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\thread_local.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\threadpool_imp.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\transaction_test_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\util\xxhash.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\backupable\backupable_db.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\blob_db\blob_compaction_filter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\blob_db\blob_db.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\blob_db\blob_db_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\blob_db\blob_dump_tool.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\blob_db\blob_file.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\blob_db\blob_log_reader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\blob_db\blob_log_writer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\blob_db\blob_log_format.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\blob_db\ttl_extractor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\cassandra\cassandra_compaction_filter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\cassandra\format.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\cassandra\merge_operator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\checkpoint\checkpoint_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\col_buf_decoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\col_buf_encoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\column_aware_encoding_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\compaction_filters\remove_emptyvalue_compactionfilter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\date_tiered\date_tiered_db_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\debug.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\document\document_db.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\document\json_document.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\document\json_document_builder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\env_mirror.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\env_timed.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\geodb\geodb_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\leveldb_options\leveldb_options.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\lua\rocks_lua_compaction_filter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\memory\memory_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\merge_operators\bytesxor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\merge_operators\max.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\merge_operators\put.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\merge_operators\string_append\stringappend.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\merge_operators\string_append\stringappend2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\merge_operators\uint64add.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\option_change_migration\option_change_migration.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\options\options_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\persistent_cache\block_cache_tier.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\persistent_cache\block_cache_tier_file.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\persistent_cache\block_cache_tier_metadata.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\persistent_cache\persistent_cache_tier.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\persistent_cache\volatile_tier_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\redis\redis_lists.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\simulator_cache\sim_cache.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\spatialdb\spatial_db.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\table_properties_collectors\compact_on_deletion_collector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\transactions\optimistic_transaction_db_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\transactions\optimistic_transaction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\transactions\pessimistic_transaction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\transactions\pessimistic_transaction_db.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\transactions\snapshot_checker.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\transactions\transaction_base.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\transactions\transaction_db_mutex_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\transactions\transaction_lock_mgr.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\transactions\transaction_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\transactions\write_prepared_txn.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\transactions\write_prepared_txn_db.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\ttl\db_ttl_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\write_batch_with_index\write_batch_with_index.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\utilities\write_batch_with_index\write_batch_with_index_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\port\win\io_win.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\port\win\env_win.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\port\win\env_default.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\port\win\port_win.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\port\win\win_logger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\turtlecoin\VS2017\external\rocksdb\port\win\win_thread.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\turtlecoin\VS2017\build\external\rocksdb\build_version.dir\$(Configuration)\build_version.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{A0462C7D-EA1C-3312-8624-3FB75DB975AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{85DC7120-74FB-3A70-BFF8-94F25E97953C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
