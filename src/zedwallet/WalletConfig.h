@@ -10,7 +10,7 @@
 namespace WalletConfig
 {
     /* The prefix your coins address starts with */
-	const std::string addressPrefix = "LGC"; // "TRTL"; 
+	const std::string addressPrefix = "L"; // "TRTL"; 
 
 	/* Your coins 'Ticker', e.g. Monero = XMR, Bitcoin = BTC */
 	const std::string ticker = "LGC"; //"TRTL";
@@ -35,7 +35,7 @@ namespace WalletConfig
     const std::string coinName = std::string(CryptoNote::CRYPTONOTE_NAME);
 
     /* Where can your users contact you for support? E.g. discord */
-    const std::string contactLink = "https://discord.gg/jgkWVC9"; // http://chat.lgcry.com
+    const std::string contactLink = "http://chat.lgcry.com"; // https://discord.gg/jgkWVC9 
 
 
     /* The number of decimals your coin has */

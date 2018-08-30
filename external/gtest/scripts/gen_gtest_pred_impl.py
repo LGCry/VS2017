@@ -225,31 +225,18 @@ template <typename Pred""" % DEFS
 
   impl += """>
 AssertionResult AssertPred%(n)sHelper(const char* pred_text""" % DEFS
-
-  impl += Iter(n, """,
-                                  const char* e%s""")
-
-  impl += """,
-                                  Pred pred"""
-
-  impl += Iter(n, """,
-                                  const T%s& v%s""")
-
+  impl += Iter(n, """, const char* e%s""")
+  impl += """, Pred pred"""
+  impl += Iter(n, """, const T%s& v%s""")
   impl += """) {
   if (pred(%(vs)s)) return AssertionSuccess();
 
 """ % DEFS
 
   impl += '  return AssertionFailure() << pred_text << "("'
-
-  impl += Iter(n, """
-                            << e%s""", sep=' << ", "')
-
+  impl += Iter(n, """ << e%s""", sep=' << ", "')
   impl += ' << ") evaluates to false, where"'
-
-  impl += Iter(n, """
-                            << "\\n" << e%s << " evaluates to " << v%s""")
-
+  impl += Iter(n, """ << "\\n" << e%s << " evaluates to " << v%s""")
   impl += """;
 }
 
@@ -300,9 +287,7 @@ def HeaderPostamble():
 
 
 def GenerateFile(path, content):
-  """Given a file path and a content string, overwrites it with the
-  given content."""
-
+  """Given a file path and a content string, overwrites it with the given content."""
   print 'Updating file %s . . .' % path
 
   f = file(path, 'w+')
@@ -713,8 +698,7 @@ def GenerateUnitTest(n):
 
 
 def _Main():
-  """The entry point of the script.  Generates the header file and its
-  unit test."""
+  """The entry point of the script.  Generates the header file and its unit test."""
 
   if len(sys.argv) != 2:
     print __doc__
