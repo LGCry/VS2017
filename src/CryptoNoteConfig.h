@@ -60,7 +60,7 @@ const uint64_t GENESIS_BLOCK_REWARD                          = UINT64_C(10000000
 --print-genesis-tx --genesis-block-reward-address <premine wallet address>
 
 For example:
-LGCoind --print-genesis-tx --genesis-block-reward-address TRTLv2vb5X7Q5TbL8Z79ES1r9LH9jnpH3AsPnyFq5VZ47nzNAQBUGdFVyAwS6AbRbCMaSzGU5FyZFG4FfcXbA3dSadQNwHt7Xq4
+LGCoind --print-genesis-tx --genesis-block-reward-address LoWWJ5xLHp6W7TxEH6jSNzUEEptwzrSUsgmi4x8ao76BS7tF2Uig5xvKKuvJ1kimT4MCNeggQSDgq1aELSpYmfRqEWvyB4i
 
 * Take the hash printed, and replace it with the hash below in GENESIS_COINBASE_TX_HEX
 
@@ -69,7 +69,7 @@ LGCoind --print-genesis-tx --genesis-block-reward-address TRTLv2vb5X7Q5TbL8Z79ES
 * You should see your premine appear in the previously generated wallet.
 
 */
-const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff000188f3b501029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210142694232c5b04151d9e4c27d31ec7a68ea568b19488cfcb422659a07a0e44dd5";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "012801ff000180c8afa025027a7aae4a053e4fd0822c62c27dde7989e8948c66470bd72594dbba50449743b62101424e4094699a4a20b0c765ad1e34aee32a9fdd014023dc9a2b39dc440bfad94a";
 
 const size_t   CRYPTONOTE_REWARD_BLOCKS_WINDOW               = 100;
 const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE     = 100000; //size of block (bytes) after which reward for block calculated using block size
